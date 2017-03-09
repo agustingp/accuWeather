@@ -1,0 +1,3 @@
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:15:33.266Z"}
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:16:45.711Z"}
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:18:56.991Z"}

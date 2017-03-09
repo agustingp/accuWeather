@@ -1,0 +1,6 @@
+{"level":"info","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - method stripData - response status: undefined","timestamp":"2017-03-09T15:15:33.263Z"}
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:15:33.266Z"}
+{"level":"info","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - method stripData - response status: undefined","timestamp":"2017-03-09T15:16:45.705Z"}
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:16:45.710Z"}
+{"level":"info","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - method stripData - response status: undefined","timestamp":"2017-03-09T15:18:56.990Z"}
+{"level":"error","message":"C:\\Users\\apereira\\Documents\\descalzo\\my-app\\server\\src\\services\\climaService.js - error: TypeError: Cannot read property 'docs' of undefined","timestamp":"2017-03-09T15:18:56.990Z"}

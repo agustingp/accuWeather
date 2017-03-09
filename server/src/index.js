@@ -1,10 +1,7 @@
 import http from "http";
 import express from "express";
 import cors from "cors";
-import morgan from "morgan";
 import bodyParser from "body-parser";
-import initializeDb from "./db";
-import middleware from "./middleware";
 import routes from "./routes";
 import config from "./config.json";
 
@@ -12,8 +9,7 @@ async function start() {
   let app = express();
   app.server = http.createServer(app);
 
-  // logger
-  app.use(morgan("dev"));
+  
 
   // 3rd party middleware
   app.use(
@@ -28,13 +24,12 @@ async function start() {
     })
   );
 
-  const db = await initializeDb();
 
-  // internal middleware
-  app.use(middleware({ config, db }));
+
+  
 
   // api router
-  app.use("/api", routes({ config, db }));
+  app.use("/api", routes({ config }));
 
   app.server.listen(process.env.PORT || config.port);
   console.log(`Started on port ${app.server.address().port}`);
